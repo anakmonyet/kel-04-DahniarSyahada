@@ -1,0 +1,212 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+     <!-- Custom styles for this template -->
+     <link href="css/carousel.css" rel="stylesheet">
+    <title>css</title>
+
+
+  <style>
+    body{
+    background-color:rgb(214, 162, 71);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    } 
+
+
+    .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+  </style>
+</head>
+<body class="text-white">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Camsin</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarsExample03">
+            <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Galeri</a>
+              </li>            
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Logout</a>
+              </li>            
+            </ul>  
+          </div>
+        </div>
+    </nav>
+    
+    <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Cafe and Coffee Shop Logo Mockups - Mockups.jpg" style="width: 100%; height: 110%;" alt="">
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Tempat Santai Dan Nyaman Terelok </h1>
+              <p class="opacity-75">Tertarik pergi kesana??Yuk ke Cafe Camsin sekarang..</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Starbucks Menu Boards.jpg" style="width: 100%; height: 100%;" alt="">
+          <div class="container">
+            <div class="carousel-caption text-anchor">
+              <h1>Bingung Mau Pesan Apa?</h1>
+              <p>Semua menu tersedia dicafe ini.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Gallery</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Andreas Petropoulos Has Designed A Small Takeaway Coffee Bar In Greece.jpg" style="width: 100%; height: 110%;" alt="">
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>Cari Cafe Yang Dekat Rumah?</h1>
+              <p>Camsin solusinya,Cafe ini bercabang di Indonesia.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>    <!-- <nav class="navbar navbar-expand-sm navbar-drak bg-drak">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">Logo</a>
+            <button class=""></button>
+        </div>
+    </nav> -->
+    <div class="container mt-3">
+      <div class="container px-4 py-5" id="featured-3">
+        <h1 class="pb-2 border-bottom text-center bg-dark">Kelebihan Cafe</h1>               
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+              <div class="feature col">
+                <div class="feature-icon bg-gradient fs-2 mb-3">
+                    <img src="Screenshot (144).png" alt="" style="width: 100%; height: 550px; ">
+                </div>
+                <h3 class="fs-2 text-body-emphasis">Cita Rasa Unik</h3>
+                <p>Kami mampu menghasilkan coffe yang bertekstur lembut dan terasa meledak di mulut.</p>
+                <a href="#" class="icon-link">
+                  Call to action
+                  <svg class="bi"><use xlink:href="#chevron-right"/></svg>
+                </a>
+              </div>
+              <div class="feature col">
+                <div class="feature-icon bg-gradient fs-2 mb-3">
+                  <img src="Screenshot (146).png" alt="" style="width: 100%; height: 550px;">
+                </div>
+                <h3 class="fs-2 text-body-emphasis">Berkualitas</h3>
+                <p>Bahan yang digunakan berkualitas tinggi,Diekspor dari kebun sendiri yang karyawannya berpotensi dalam hal perkebunan.</p>
+                <a href="#" class="icon-link">
+                  Call to action
+                  <svg class="bi"><use xlink:href="#chevron-right"/></svg>
+                </a>
+              </div>
+              <div class="feature col">
+                <div class="feature-icon bg-gradient fs-2 mb-3">
+                  <img src="57634479-67c3-4754-baa7-5981fe0ad307.jpg" alt="" style="width: 100%; height: 550px; ">
+                </div>
+                <h3 class="fs-2 text-body-emphasis">Beragam</h3>
+                <p>Kami menyediakan menu coffe spesial yang jarang sekali muncul di Cafe-cafe lain dan menyediakan makanan yang coock disajikan.</p>
+                <a href="#" class="icon-link">
+                  Call to action
+                  <svg class="bi"><use xlink:href="#chevron-right"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="768e00bf-2ed8-4b7c-b32d-12ebeae14be6.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">About-Us</h1>
+          <p class="lead">CAFE CAMSIN Merupakan Cafe aesthetic yang terkenal di Indonesia,dan sangat digemari oleh kalangan remaja.Cafe ini memiliki cabang yang banyak,seperti:Bandung, Aceh, Lamongan, Sumatra, Bekasi, Kalimantan dll.Pusatnya ada di Malang city.Dikembangkan oleh tenaga ahli dan didukung oleh karyawan-karyawan yang berpotensi. </p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+      <div class="row align-items-center g-lg-5 py-5">
+        <div class="col-lg-7 text-center text-lg-start">
+          <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Contact Us</h1>
+          <p class="col-lg-10 fs-4">Jika anda masih memiliki pertanyaan yang belum terjawab, kami dapat memberikan layanan bagi anda. Jangan ragu hubungi kami, tim marketing kami siap melayani semua kebutuhan anda dengan sesuai. </p>
+        </div>
+        <div class="col-md-10 mx-auto col-lg-5">
+          <form class="p-4 p-md-5 border rounded-3 bg-dark">
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+              <label for="floatingPassword">Password</label>
+            </div>
+            <div class="checkbox mb-3">
+              <label>
+                <input type="checkbox" value="remember-me"> Remember me
+              </label>
+            </div>
+            <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
+            <hr class="my-4">
+            <small class="text-body-secondary">By clicking Sign up, you agree to the terms of use.</small>
+          </form>
+        </div>
+      </div>
+    </div>      
+<div class="container p-5">
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>   
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Galeri</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Login</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+    </ul>
+    <p class="text-center text-body-secondary">&copy;jl.kendedes No.28 & jl.karangploso Gardenvile N-8 Kota Malang </p>
+  </footer>
+</div>
+
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

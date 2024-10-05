@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Galeri</title>
+</head>
+
+<style>
+  body{
+    background-color:rgb(214, 162, 71);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    } 
+  </style>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Camsin</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarsExample03">
+            <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Galeri</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Logout</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    
+    <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Cafe and Coffee Shop Logo Mockups - Mockups.jpg" style="width: 100%; height: 110%;" alt="">
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Tempat Santai Dan Nyaman Terelok</h1>
+              <p class="opacity-75">Tertarik pergi kesana??Yuk ke Cafe Camsin sekarang..</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Starbucks Menu Boards.jpg" style="width: 100%; height: 100%;" alt="">
+          <div class="container">
+            <div class="carousel-caption text-anchor">
+              <h1>Bingung Mau Pesan Apa?</h1> 
+              <p>Semua menu tersedia dicafe ini.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Gallery</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Andreas Petropoulos Has Designed A Small Takeaway Coffee Bar In Greece.jpg" style="width: 100%; height: 110%;" alt="">
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>Cari Cafe Yang Dekat Rumah?</h1>
+              <p>Camsin solusinya,Cafe ini bercabang di Indonesia.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <section class="gallery">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h1>Gallery</h1>
+            <hr >
+          </div>
+        </div>
+        <div class="album py-5 bg-body-tertiary">
+          <div class="container">      
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="Cantinho do Café_ Como Montar e 100 Fotos Inspiradoras (1).jpg" style="height: 450px;">
+                  <div class="card-body">
+                    <p class="card-text">Memiliki spot foto yang cantik.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      </div>
+                      <small class="text-body-secondary">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="BALACONA.jpg" style="height: 450px;">
+                  <div class="card-body">
+                    <p class="card-text">Temapat duduk santay dan nyaman untuk istirahat.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      </div>
+                      <small class="text-body-secondary">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="ee1c94fe-2f00-4df2-bbf3-0dc9efff38b5.jpg" style="height: 450px;">
+                  <div class="card-body">
+                    <p class="card-text">Ruang pojok yang nyaman untuk mengerjakan tugas. </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      </div>
+                      <small class="text-body-secondary">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="5c2196b9-4dab-4776-bc4d-5a09c40e2ce6.jpg" style="height: 470px;">
+                  <div class="card-body">
+                    <p class="card-text">Walaupun tempatnya kecil tetapi sangat asri  </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      </div>
+                      <small class="text-body-secondary">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="cdc78f70-c45f-4c5d-9872-f7c6d0bdf4f6.jpg" style="height: 470px;">
+                  <div class="card-body">
+                    <p class="card-text">Tidak cuman bagus dari cafenya, kita lebih mengutamakan kebersihan tempat juga.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      </div>
+                      <small class="text-body-secondary">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="4e54842f-69b0-47b1-9d88-2073edb06727.jpg" style="height: 470px;">
+                  <div class="card-body">
+                    <p class="card-text">Memiki karyaman yang bekerja keras dan layanan yang cepat.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      </div>
+                      <small class="text-body-secondary">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="49fd0982-92df-4b14-b964-aa7cb3a6251a.jpg" style="height: 450px;">
+                  <div class="card-body">
+                    <p class="card-text">Tempat ternyaman untuk bersantai.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      </div>
+                      <small class="text-body-secondary">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="57634479-67c3-4754-baa7-5981fe0ad307.jpg" style="height: 450px;">
+                  <div class="card-body">
+                    <p class="card-text">Camsin memiliki berbagai makanan, desert, dan minuman.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      </div>
+                      <small class="text-body-secondary">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="91603a4e-aa25-4db9-a3a5-ec2dede4c537.jpg" style="height: 450px;">
+                  <div class="card-body">
+                    <p class="card-text">Camsin memiliki minuman yang recomeded.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      </div>
+                      <small class="text-body-secondary">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- <nav class="navbar navbar-expand-sm navbar-drak bg-drak">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">Logo</a>
+            <button class=""></button>
+        </div>
+    </nav> -->
+   
+    <div class="container p-5">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Galeri</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Login</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+          </ul>
+          <p class="text-center text-body-secondary">&copy;jl.kendedes No.28 & jl.karangploso Gardenvile N-8 Kota Malang </p>
+        </footer>
+      </div>
+      
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
